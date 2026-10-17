@@ -36,6 +36,6 @@ Se utilizó la plantilla **[Zerofour](https://html5up.net/zerofour)** de HTML5 U
 ## 👥 Autores
 
 Proyecto académico desarrollado por: 
-- Elkin Fuente
+- Elkin Fuentes
 - Mayra Lucas
 - Joshua Mero
