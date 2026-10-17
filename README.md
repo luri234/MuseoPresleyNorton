@@ -1,5 +1,4 @@
-# MuseoPresleyNorton
-# 🏛️ Museo Presley Norton – Landing Page
+# 🏛️ Museo Presley Norton 
 
 Página web creada para fomentar la interacción de la comunidad con actividades culturales, como las que se llevan a cabo en el Museo Presley Norton.
 
@@ -30,7 +29,7 @@ Se utilizó la plantilla **[Zerofour](https://html5up.net/zerofour)** de HTML5 U
 
 1. Clona el repositorio:
 ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/luri234/MuseoPresleyNorton.git
 ```
 2. Abre el archivo `index.html` en tu navegador.
 
