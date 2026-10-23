@@ -1,0 +1,58 @@
+/* Museo Presley Norton: the ZeroFour grid, wrappers and feature blocks remain the layout foundation. */
+body.museo { --museo-ink: #2f302b; --museo-terracotta: #a75536; color: var(--museo-ink); }
+body.museo #header h1 a, body.museo #nav > ul > li > a { color: #fff; }
+body.museo #nav > ul > li.current_page_item > a, body.museo #nav > ul > li:hover > a { background: var(--museo-terracotta); }
+body.museo .eyebrow { color: var(--museo-terracotta); font-size: .8em; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+body.museo .button { background: var(--museo-terracotta); }
+body.museo .button:hover { background: #87432e; }
+
+/* Museum hero: keep ZeroFour's #banner hook and make the photo legible at every breakpoint. */
+body.museo #header-wrapper {
+  background: linear-gradient(90deg, rgba(29, 28, 25, .92) 0%, rgba(29, 28, 25, .68) 56%, rgba(29, 28, 25, .35) 100%), url("../../images/museo-fachada-sin-fecha.jpg") center 45% / cover no-repeat;
+}
+body.museo #banner {
+  width: 100%;
+  max-width: 1100px;
+  padding: 7rem 1.5rem 5rem;
+  text-align: left;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .3);
+}
+body.museo #banner h2 {
+  max-width: 12em;
+  margin: .25em 0 .4em;
+  border: 0;
+  color: #fff;
+  font-size: clamp(2.3rem, 5vw, 4.5rem);
+  line-height: 1.12;
+  letter-spacing: -.02em;
+}
+body.museo #banner h2:before, body.museo #banner h2:after { display: none; }
+body.museo #banner h2 strong { color: #f4ceb0; }
+body.museo #banner p {
+  float: none;
+  width: auto;
+  max-width: 38rem;
+  margin: 0 0 1.5rem;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.55;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+body.museo #banner p.eyebrow { color: #f4ceb0; font-size: .85rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+body.museo #banner .button { width: auto; min-width: 13rem; }
+
+/* Footer text and links need contrast against the museum's dark surface. */
+body.museo #footer-wrapper {
+  background: #272622;
+  color: #f1eee8;
+}
+body.museo #footer, body.museo #footer p, body.museo #copyright { color: #f1eee8; text-shadow: none; }
+body.museo #footer h2 { color: #fff; }
+body.museo #footer a { color: #f2c7a8; }
+body.museo #footer a:hover { color: #fff; }
+body.museo #footer .button { color: #fff; }
+body.museo #footer strong { color: #fff; }
+body.museo #footer ul.divided li, body.museo #footer ul.menu li { border-color: rgba(255,255,255,.18); }
