@@ -5,6 +5,10 @@ body.museo #nav > ul > li.current_page_item > a, body.museo #nav > ul > li:hover
 body.museo .eyebrow { color: var(--museo-terracotta); font-size: .8em; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 body.museo .button { background: var(--museo-terracotta); }
 body.museo .button:hover { background: #87432e; }
+body.museo .museo-card { height: 100%; text-align: left; }
+body.museo .museo-card img { margin: 0 0 1.5rem; }
+body.museo .museo-card h3 { margin-bottom: .6rem; }
+body.museo .photo-caption { margin-top: .75rem; font-size: .9em; }
 
 /* Museum hero: keep ZeroFour's #banner hook and make the photo legible at every breakpoint. */
 body.museo #header-wrapper {
@@ -56,3 +60,42 @@ body.museo #footer a:hover { color: #fff; }
 body.museo #footer .button { color: #fff; }
 body.museo #footer strong { color: #fff; }
 body.museo #footer ul.divided li, body.museo #footer ul.menu li { border-color: rgba(255,255,255,.18); }
+
+/* A guided visit and photo framing using the original images. */
+body.museo .visit-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+body.museo .visit-steps article {
+  position: relative;
+  min-height: 16rem;
+  margin: 0;
+  padding: 2rem;
+  overflow: hidden;
+  background: #f6f0e7;
+  border: 1px solid #dfd1c1;
+  border-top: 4px solid var(--museo-terracotta);
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 12px 26px rgba(52, 42, 30, .07);
+}
+body.museo .visit-steps article::after {
+  content: attr(data-step);
+  position: absolute;
+  top: -.45rem;
+  right: .75rem;
+  color: rgba(167, 85, 54, .08);
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1;
+  pointer-events: none;
+}
+body.museo .step-marker { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.5rem; position: relative; z-index: 1; }
+body.museo .step-marker .icon { display: grid; place-items: center; width: 3.25rem; height: 3.25rem; border-radius: 50%; color: #fff; background: var(--museo-terracotta); font-size: 1.25rem; }
+body.museo .step-marker span { display: block; margin: 0; color: #7a4b39; font-size: .85rem; font-weight: 800; letter-spacing: .12em; }
+body.museo .visit-steps h3 { position: relative; z-index: 1; margin-bottom: .65rem; }
+body.museo .visit-steps p { position: relative; z-index: 1; margin-bottom: 0; }
+body.museo .museo-card img, body.museo .feature-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center top;
+}
