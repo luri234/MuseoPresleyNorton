@@ -118,3 +118,15 @@ body.museo .museo-card img, body.museo .feature-photo {
   body.museo .visit-steps { grid-template-columns: 1fr; gap: 1rem; }
   body.museo .visit-steps article { min-height: 0; padding: 1.5rem; }
 }
+
+/* Collaborative wall from the museum visit. */
+body.museo .collaborative { background: #f4eee5; padding: 2rem; }
+body.museo .collaborative .row { align-items: center; }
+body.museo .collaborative img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 60%; }
+body.museo .collaborative-copy { padding: 1.5rem 2rem; }
+body.museo .collaborative-copy h2 { margin-bottom: 1rem; }
+body.museo .collaborative-copy p:last-child { margin-bottom: 0; }
+@media screen and (max-width: 736px) {
+  body.museo .collaborative { padding: 1rem; }
+  body.museo .collaborative-copy { padding: 1.25rem .5rem .5rem; }
+}
