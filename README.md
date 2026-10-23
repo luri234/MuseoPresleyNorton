@@ -1,41 +1,28 @@
-# 🏛️ Museo Presley Norton 
+# Museo Presley Norton
 
-Página web creada para fomentar la interacción de la comunidad con actividades culturales, como las que se llevan a cabo en el Museo Presley Norton.
+Landing page académica para acercar la agenda cultural, la colección y la información de visita del Museo Presley Norton a públicos locales y visitantes de Guayaquil.
 
-## Descripción
+## Investigación y decisiones
 
-Este proyecto es una landing page para el **Museo Presley Norton** (Av. 9 de Octubre y Carchi, Guayaquil). Nace de una visita al museo durante la actividad *"Conexión Sinfónica: Guayas y Quil y su leyenda"* y de entrevistas a visitantes, que mostraron la necesidad de mejorar la difusión de las actividades culturales y facilitar la planificación de las visitas.
+El equipo visitó el museo el 3 de octubre de 2026 durante “Conexión Sinfónica: Guayas y Quil y su leyenda” y entrevistó a cinco visitantes. La necesidad identificada fue facilitar el conocimiento de las actividades y la planificación de la visita.
 
-## Secciones
+Se seleccionó ZeroFour de HTML5 UP por su cabecera visual, navegación superior y secciones apiladas. La adaptación conserva la estructura de la plantilla y concentra los cambios propios del museo en `assets/css/museo.css`.
 
-- **Inicio:** bienvenida y accesos directos a la agenda y a la información del museo.
-- **Agenda de actividades:** eventos, talleres, charlas y encuentros musicales con fecha, horario y descripción.
-- **Conoce el museo:** historia del museo, de la Villa Rosa Herlinda y de su exposición permanente.
-- **Experiencias y actividades:** espacios participativos como dibujo, lectura, mensajes, tejido y cerámica.
-- **Galería:** fotografías de salas, colección, talleres y eventos.
-- **Información para visitantes y contacto:** dirección, horarios, ingreso, contacto y redes sociales.
+## Contenido implementado
 
-## 🎨 Diseño
+- Villa Rosa Herlinda y colección arqueológica.
+- Agenda conectada con la cuenta oficial de Facebook.
+- Espacios participativos y pizarra colectiva.
+- Tres paradas sugeridas para recorrer el museo.
+- Dos escenas contextualizadas: el pequeño televisor y el escritorio con máquina de escribir.
 
-Se utilizó la plantilla **[Zerofour](https://html5up.net/zerofour)** de HTML5 UP. Se eligió entre tres candidatas (Future Imperfect, Halcyonic y Zerofour) por su estructura nativa de landing page, su cabecera de alto impacto, su navegación intuitiva y su facilidad de personalización.
+## Fuentes
 
-## 🛠️ Tecnologías
+- [Facebook del Museo Presley Norton](https://www.facebook.com/mpresleynorton)
+- [El Universo: Villa Rosa Herlinda](https://www.eluniverso.com/guayaquil/2020/11/13/nota/8046997/inmueble-patrimonial-acoge-museo-presley-norton-espacio-honor/?outputType=amp)
+- [El Universo: Presley Norton y televisión](https://www.eluniverso.com/entretenimiento/2020/12/19/nota/8369605/pioneros-television-guayaquil-cumplieron-60-anos-haber-hecho/)
+- [ZeroFour por HTML5 UP](https://html5up.net/zerofour)
 
-- HTML5
-- CSS3
-- JavaScript
+## Autores
 
-## Uso
-
-1. Clona el repositorio:
-```bash
-   git clone https://github.com/luri234/MuseoPresleyNorton.git
-```
-2. Abre el archivo `index.html` en tu navegador.
-
-## 👥 Autores
-
-Proyecto académico desarrollado por: 
-- Elkin Fuentes
-- Mayra Lucas
-- Joshua Mero
+Elkin Fuentes, Mayra Lucas y Joshua Mero.
