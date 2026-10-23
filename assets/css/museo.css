@@ -47,6 +47,21 @@ body.museo #banner p {
 }
 body.museo #banner p.eyebrow { color: #f4ceb0; font-size: .85rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 body.museo #banner .button { width: auto; min-width: 13rem; }
+@media screen and (max-width: 980px) {
+  body.museo #banner { padding: 5rem 1.5rem 3.5rem; }
+}
+@media screen and (max-width: 736px) {
+  body.museo #header-wrapper { background-position: center, 56% center; }
+  body.museo #banner { padding: 3.75rem 1.25rem 3rem; }
+  body.museo #banner h2 { font-size: clamp(2rem, 8vw, 3rem) !important; }
+  body.museo #banner p { font-size: 1rem; }
+  body.museo #banner .button { width: 100%; min-width: 0; }
+}
+@media screen and (max-width: 390px) {
+  body.museo #banner { padding-inline: 1rem; }
+  body.museo #banner h2 { font-size: 2rem !important; }
+  body.museo .gallery-grid { gap: 1rem; }
+}
 
 /* Footer text and links need contrast against the museum's dark surface. */
 body.museo #footer-wrapper {
@@ -98,4 +113,8 @@ body.museo .museo-card img, body.museo .feature-photo {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: center top;
+}
+@media screen and (max-width: 736px) {
+  body.museo .visit-steps { grid-template-columns: 1fr; gap: 1rem; }
+  body.museo .visit-steps article { min-height: 0; padding: 1.5rem; }
 }
