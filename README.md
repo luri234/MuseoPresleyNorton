@@ -1,59 +1,60 @@
-# Museo Presley Norton
+# 🏛️ Museo Presley Norton
 
-Landing page académica para acercar la agenda cultural, la colección y la información de visita del Museo Presley Norton a públicos locales y visitantes de Guayaquil.
+Una página web para descubrir el patrimonio, la historia y las actividades culturales del Museo Presley Norton, y fomentar la participación de la comunidad en la vida cultural de Guayaquil.
 
-## Análisis de la actividad
+## Descripción
 
-El equipo visitó el museo el 3 de octubre de 2026 durante “Conexión Sinfónica: Guayas y Quil y su leyenda” y entrevistó a cinco visitantes. Las conversaciones sugirieron que las actividades culturales y la historia del museo se valoran, pero no siempre se conocen con anticipación: algunas personas llegaron por otra actividad del lugar, otras lo visitaban por primera vez y varias conocieron la propuesta por redes sociales, recomendaciones o casualidad. Por eso, la página prioriza agenda vigente, contexto del museo, experiencias y datos prácticos de visita.
+Este proyecto consiste en una landing page para el **Museo Presley Norton**, ubicado en la Av. 9 de Octubre y Carchi, Guayaquil. Surge a partir de la visita realizada el 3 de octubre de 2026, durante la actividad *Conexión Sinfónica: Guayas y Quil y su leyenda*, y de entrevistas a los visitantes.
 
-## Contenido y propósito
+La experiencia permitió identificar la importancia de dar mayor visibilidad a las actividades culturales del museo y facilitar el acceso a información para quienes desean conocerlo. Como respuesta, la página reúne información sobre su historia, colección arqueológica, experiencias participativas y opciones para planificar un recorrido.
 
-- **Inicio:** presentar el museo y orientar a sus secciones principales.
-- **El museo:** contextualizar la Villa Rosa Herlinda y la colección arqueológica permanente.
-- **Dos escenas, otras historias:** mostrar sin repetir fotografías del pequeño televisor de tubo y del escritorio con fotografía y máquina de escribir. Para el escritorio se usa la toma exacta de las 11:26 indicada por el equipo, donde también se ve el texto de la pared; el encuadre de la tarjeta deja fuera la marca de fecha y hora. Los textos distinguen lo observado en la visita de los hechos documentados sobre Presley Norton y la villa.
-- **Agenda:** facilitar el acceso a novedades en [Facebook del museo](https://www.facebook.com/mpresleynorton); las fechas y condiciones deben confirmarse en canales oficiales.
-- **Experiencias:** mostrar espacios participativos y actividades observadas durante la visita.
-- **Pizarra colectiva:** destacar los dibujos y mensajes compartidos por visitantes durante la visita del equipo.
-- **Ideas para tu recorrido:** sugerir una secuencia sencilla para explorar la casa, la colección y las actividades.
-- **Galería:** acercar visualmente espacios y objetos del museo con nueve fotografías distintas a las de las secciones principales. Todas las tarjetas comparten rótulo, título, explicación y estilo visual. Tres escenas desarrollan una breve historia a partir de las preguntas, el telar participativo y las fotografías de campo vistos en la muestra.
-- **Planifica tu visita:** ofrecer ubicación y enlaces de información oficial.
+🌐 **Visita el sitio web:** [Museo Presley Norton — Patrimonio vivo en Guayaquil](https://luri234.github.io/MuseoPresleyNorton/)
 
-## Comparación y selección de plantilla
+## Secciones
 
-| Plantilla | Aporte | Consideración para este proyecto |
-| --- | --- | --- |
-| Future Imperfect | Jerarquía editorial clara y tarjetas de contenido | Su formato de revista o blog requería más adaptación para una landing institucional |
-| Halcyonic | Organización sobria y navegación sencilla | Adecuada para información institucional, con menor énfasis en una cabecera visual de bienvenida |
-| ZeroFour | Cabecera de alto impacto, navegación superior y secciones apiladas | Su estructura responde de forma directa a la landing con agenda, colección y galería |
+- **Inicio:** bienvenida al museo y accesos a las principales secciones.
+- **Conoce el museo:** historia de la Villa Rosa Herlinda y de la colección arqueológica permanente.
+- **Dos escenas, otras historias:** relatos visuales inspirados en el televisor de tubo y el escritorio con máquina de escribir, a partir de lo observado durante la visita y del contexto histórico documentado.
+- **Agenda de actividades:** acceso a las novedades culturales a través del [Facebook del museo](https://www.facebook.com/mpresleynorton).
+- **Experiencias y actividades:** espacios participativos relacionados con el dibujo, la lectura, los mensajes, el tejido y la cerámica.
+- **Pizarra colectiva:** muestra de dibujos y mensajes compartidos por los visitantes.
+- **Ideas para tu recorrido:** sugerencias para explorar los espacios, la colección y las actividades del museo.
+- **Galería:** fotografías de espacios, objetos y experiencias que acercan al visitante a la vida cultural del museo.
+- **Planifica tu visita:** información práctica y enlaces de interés.
 
-Se seleccionó **ZeroFour de HTML5 UP**. La adaptación conserva su navegación, cabecera, bloques de contenido y retícula responsive, y reemplaza los textos de muestra por información del museo. Se añadieron fotografías locales, una paleta cálida y accesos para planificar la visita. Se mantiene el crédito y la licencia CC BY 3.0 de la plantilla.
+## 🎨 Diseño
 
-Los estilos de la adaptación están en `assets/css/museo.css`, cargados después de `assets/css/main.css`. El CSS de ZeroFour queda intacto para facilitar futuras actualizaciones de la plantilla.
+Se utilizó la plantilla **[ZeroFour de HTML5 UP](https://html5up.net/zerofour)**, seleccionada entre tres opciones: *Future Imperfect*, *Halcyonic* y *ZeroFour* por su cabecera visual, navegación intuitiva y estructura de landing page que se adaptan mejor a los objetivos del proyecto.
 
-## Privacidad y fuentes de las imágenes
+El diseño se personalizó con una paleta de colores cálidos, fotografías tomadas por el equipo durante la visita y contenido enfocado en el patrimonio y las experiencias del museo. 
 
-La galería prioriza espacios y objetos, evitando primeros planos de visitantes. Las fotografías utilizadas fueron tomadas por el equipo durante la visita de octubre de 2026. Antes de desplegar el sitio, confirmen que cualquier persona identificable autorizó su publicación; no publiquen imágenes identificables de menores sin las autorizaciones correspondientes.
+## 🛠️ Tecnologías
 
-La fotografía de portada se recortó en la parte inferior para retirar la marca de fecha y hora. La toma original del escritorio permanece intacta en `images/museo-escritorio-1126.jpg`; la tarjeta encuadra su parte superior para ocultar esa marca sin perder la máquina, el marco ni el texto de la pared.
+- HTML5
+- CSS3
+- JavaScript
 
-## Tecnologías y uso
+## Uso
 
-HTML5, CSS3 y JavaScript. No se requieren dependencias para abrir `index.html` en un navegador moderno; la página utiliza los estilos, scripts y fotografías locales incluidos en el repositorio.
+1. Clona el repositorio:
 
-## Fuentes de contexto
+   ```bash
+   git clone https://github.com/luri234/MuseoPresleyNorton.git
+   ```
 
-- [Plan del Proyecto 02 de DAWM3](https://dawm3.readthedocs.io/es/latest/plan/proyecto02.html)
+2. Abre el archivo `index.html` en un navegador moderno.
+
+## 📚 Fuentes
+
 - [El Universo: historia de la Villa Rosa Herlinda y el Museo Presley Norton](https://www.eluniverso.com/guayaquil/2020/11/13/nota/8046997/inmueble-patrimonial-acoge-museo-presley-norton-espacio-honor/?outputType=amp)
 - [El Universo: Presley Norton y los inicios de la televisión comercial en Guayaquil](https://www.eluniverso.com/entretenimiento/2020/12/19/nota/8369605/pioneros-television-guayaquil-cumplieron-60-anos-haber-hecho/)
 - [Facebook del Museo Presley Norton](https://www.facebook.com/mpresleynorton)
-- [ZeroFour por HTML5 UP](https://html5up.net/zerofour)
+- [ZeroFour — HTML5 UP](https://html5up.net/zerofour)
 
-Los dos enlaces de El Universo se abrieron durante la revisión de octubre de 2026. Los enlaces generales de turismo municipal y del ministerio se retiraron de la página porque devolvían errores de disponibilidad al comprobarlos. Facebook puede exigir iniciar sesión; el enlace corresponde a la cuenta proporcionada por el equipo. Las fotografías del televisor y del escritorio documentan el montaje visto el 3 de octubre de 2026; no se afirma que el televisor, el escritorio o la máquina hayan pertenecido personalmente a Norton o a los antiguos residentes de la villa.
+## 👥 Autores
 
-## Estado del sprint
+Proyecto académico desarrollado por:
 
-La estructura de contenido, selección de plantilla, adaptación de la landing page y README están implementados. La publicación en GitHub Pages y su comprobación en línea quedan pendientes como paso de despliegue.
-
-## Autores
-
-Proyecto desarrollado por Elkin Fuentes, Mayra Lucas y Joshua Mero.
+- Elkin Fuentes
+- Mayra Lucas
+- Joshua Mero
