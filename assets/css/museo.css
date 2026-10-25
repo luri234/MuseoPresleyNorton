@@ -157,3 +157,140 @@ body.museo .story-copy a:hover { color: #512b1c; }
   body.museo .story-grid { grid-template-columns: 1fr; }
   body.museo .story-copy { padding: 1.35rem 1.5rem 1.7rem; }
 }
+/* ===== Formulario de contacto ===== */
+body.museo .form-museo {
+  padding: 2rem;
+  background: #f6f0e7;
+  border: 1px solid #dfd1c1;
+  border-top: 4px solid var(--museo-terracotta);
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 12px 26px rgba(52, 42, 30, .07);
+  text-align: left;
+}
+
+/* Espaciado propio (reemplaza los gutters grandes de la grilla) */
+body.museo .form-museo .row { margin-top: -1.25rem; margin-left: -1.5rem; }
+body.museo .form-museo .row > * { padding: 1.25rem 0 0 1.5rem; }
+body.museo .form-museo .campo { margin-bottom: 0; }
+
+/* Etiquetas */
+body.museo .form-museo label,
+body.museo .form-museo legend {
+  display: block;
+  margin: 0 0 .45rem;
+  color: var(--museo-ink);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+body.museo .form-museo fieldset { border: 0; padding: 0; margin: 0; }
+
+/* Campos (incluye tel, date y number, que la plantilla no estiliza) */
+body.museo .form-museo input[type="text"],
+body.museo .form-museo input[type="email"],
+body.museo .form-museo input[type="tel"],
+body.museo .form-museo input[type="date"],
+body.museo .form-museo input[type="number"],
+body.museo .form-museo select,
+body.museo .form-museo textarea {
+  display: block;
+  width: 100%;
+  padding: .7rem .9rem;
+  background: #fff;
+  color: var(--museo-ink);
+  border: 1px solid #cdbfae;
+  border-radius: 8px;
+  font: inherit;
+  line-height: 1.5;
+}
+body.museo .form-museo textarea { min-height: 9rem; resize: vertical; }
+body.museo .form-museo ::placeholder { color: #8a7d70 !important; opacity: 1; }
+
+/* Flecha del select (la plantilla quita la nativa) */
+body.museo .form-museo select {
+  padding-right: 2.5rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23a75536' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right .9rem center;
+}
+
+/* Foco */
+body.museo .form-museo input:focus,
+body.museo .form-museo select:focus,
+body.museo .form-museo textarea:focus {
+  outline: 0;
+  border-color: var(--museo-terracotta);
+  box-shadow: 0 0 0 3px rgba(167, 85, 54, .25);
+}
+
+/* Radios y checkbox: la plantilla los oculta con appearance:none */
+body.museo .form-museo input[type="radio"],
+body.museo .form-museo input[type="checkbox"] {
+  -webkit-appearance: auto;
+  appearance: auto;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0 .5rem 0 0;
+  vertical-align: middle;
+  accent-color: var(--museo-terracotta);
+}
+body.museo .form-museo input[type="radio"] + label,
+body.museo .form-museo input[type="checkbox"] + label {
+  display: inline;
+  margin: 0 1.25rem 0 0;
+  font-size: .95rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  cursor: pointer;
+}
+body.museo .form-museo input[type="radio"]:focus-visible,
+body.museo .form-museo input[type="checkbox"]:focus-visible {
+  outline: 3px solid rgba(167, 85, 54, .4);
+  outline-offset: 2px;
+}
+
+/* Contador y errores */
+body.museo .form-museo .contador { display: block; margin-top: .3rem; text-align: right; color: #7a4b39; font-size: .85rem; }
+body.museo .form-museo .error { display: block; min-height: 1.2em; margin-top: .3rem; color: #b3261e; font-size: .9rem; font-weight: 600; }
+body.museo .form-museo .invalido { border-color: #b3261e !important; background: #fff6f4; }
+body.museo .form-museo .invalido:focus { box-shadow: 0 0 0 3px rgba(179, 38, 30, .2); }
+
+/* Botones: "Enviar" terracota (hereda de .button), "Limpiar" con contorno */
+body.museo .form-museo button.alt {
+  background: transparent;
+  background-image: none;
+  color: #87432e !important;
+  box-shadow: inset 0 0 0 2px var(--museo-terracotta);
+  text-shadow: none;
+}
+body.museo .form-museo button.alt:hover { background: rgba(167, 85, 54, .1); }
+
+/* Mensaje de estado */
+body.museo .estado-form { margin: 1.25rem 0 0; color: #b3261e; font-weight: 700; }
+body.museo .estado-form.ok { color: #2e6b3f; }
+
+@media screen and (max-width: 736px) {
+  body.museo .form-museo { padding: 1.25rem; }
+  body.museo .form-museo .row > .col-12:last-child .button { margin-bottom: .75rem; }
+}
+/* Mapa de la visita: franja a todo el ancho del footer */
+body.museo .mapa-visita {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 12px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, .25);
+}
+body.museo .mapa-visita iframe {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+@media screen and (max-width: 736px) {
+  body.museo .mapa-visita iframe { height: 240px; }
+}
+html {
+  scroll-behavior: smooth;
+}

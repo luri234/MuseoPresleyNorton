@@ -57,13 +57,107 @@
 			<figure class="gallery-card"><img src="images/museo-tejido-colectivo.jpg" alt="Telar colectivo y panel que invita a sumar un hilo al tejido" /><figcaption><span class="gallery-kicker">Una historia en construcción</span><strong>Un hilo que sigue creciendo</strong><span class="gallery-description">El telar invita a cada visitante a sumar una hebra. Así, la idea de construir saberes en comunidad se vuelve un gesto visible y compartido.</span></figcaption></figure>
 			<figure class="gallery-card"><img src="images/museo-trabajo-arqueologico.jpg" alt="Fotografías del trabajo de campo y panel sobre la investigación arqueológica de Presley Norton" /><figcaption><span class="gallery-kicker">Detrás de la colección</span><strong>Antes de la vitrina hubo preguntas</strong><span class="gallery-description">Las fotografías de campo recuerdan que las piezas no aparecieron solas en una sala. Detrás de cada hallazgo hay lugares, personas y preguntas de investigación.</span></figcaption></figure>
 		</div></section></div></div>
+		<div class="wrapper style2" id="contacto"><div class="inner"><section class="container">
+	<header class="first major">
+		<p class="eyebrow">Escríbenos</p>
+		<h2>Consultas y visitas grupales</h2>
+		<p>Cuéntanos qué te gustaría saber o coordina una visita para tu grupo. Los campos con * son obligatorios.</p>
+	</header>
+
+	<form id="form-contacto" class="form-museo" novalidate>
+		<div class="row">
+			<div class="col-6 col-12-medium campo">
+				<label for="nombre">Nombre completo *</label>
+				<input type="text" id="nombre" name="nombre" required minlength="3" maxlength="60"
+					autocomplete="name" aria-describedby="error-nombre" />
+				<span class="error" id="error-nombre" aria-live="polite"></span>
+			</div>
+			<div class="col-6 col-12-medium campo">
+				<label for="correo">Correo electrónico *</label>
+				<input type="email" id="correo" name="correo" required
+					autocomplete="email" aria-describedby="error-correo" />
+				<span class="error" id="error-correo" aria-live="polite"></span>
+			</div>
+			<div class="col-6 col-12-medium campo">
+				<label for="telefono">Teléfono (opcional)</label>
+				<input type="tel" id="telefono" name="telefono" pattern="[0-9]{9,10}"
+					placeholder="0991234567" autocomplete="tel" aria-describedby="error-telefono" />
+				<span class="error" id="error-telefono" aria-live="polite"></span>
+			</div>
+			<div class="col-6 col-12-medium campo">
+				<label for="motivo">Motivo de tu mensaje *</label>
+				<select id="motivo" name="motivo" required aria-describedby="error-motivo">
+					<option value="">Selecciona una opción</option>
+					<option value="consulta">Consulta general</option>
+					<option value="agenda">Agenda y actividades</option>
+					<option value="grupal">Visita grupal o escolar</option>
+					<option value="sugerencia">Sugerencia</option>
+				</select>
+				<span class="error" id="error-motivo" aria-live="polite"></span>
+			</div>
+			<div class="col-6 col-12-medium campo">
+				<label for="fecha">Fecha tentativa de visita (opcional)</label>
+				<input type="date" id="fecha" name="fecha" aria-describedby="error-fecha" />
+				<span class="error" id="error-fecha" aria-live="polite"></span>
+			</div>
+			<div class="col-6 col-12-medium campo">
+				<label for="personas">Número de personas</label>
+				<input type="number" id="personas" name="personas" min="1" max="100" value="1"
+					aria-describedby="error-personas" />
+				<span class="error" id="error-personas" aria-live="polite"></span>
+			</div>
+			<div class="col-12 campo">
+				<fieldset>
+					<legend>¿Cómo prefieres que te respondamos?</legend>
+					<input type="radio" id="resp-correo" name="respuesta" value="correo" checked />
+					<label for="resp-correo">Por correo</label>
+					<input type="radio" id="resp-telefono" name="respuesta" value="telefono" />
+					<label for="resp-telefono">Por teléfono</label>
+				</fieldset>
+			</div>
+			<div class="col-12 campo">
+				<label for="mensaje">Mensaje *</label>
+				<textarea id="mensaje" name="mensaje" rows="5" required minlength="10" maxlength="500"
+					aria-describedby="error-mensaje contador"></textarea>
+				<span class="contador" id="contador">0 / 500</span>
+				<span class="error" id="error-mensaje" aria-live="polite"></span>
+			</div>
+			<div class="col-12 campo">
+				<input type="checkbox" id="acepto" name="acepto" required aria-describedby="error-acepto" />
+				<label for="acepto">Acepto que usen mis datos solo para responder esta consulta. *</label>
+				<span class="error" id="error-acepto" aria-live="polite"></span>
+			</div>
+			<div class="col-12">
+				<button type="submit" class="button icon solid fa-paper-plane">Enviar mensaje</button>
+				<button type="reset" class="button alt">Limpiar</button>
+			</div>
+		</div>
+		<p id="estado-form" class="estado-form" role="status" aria-live="polite"></p>
+	</form>
+</section></div></div>
 	</div>
 	<div id="footer-wrapper"><footer id="footer" class="container"><div class="row">
-		<div class="col-6 col-12-medium" id="visita"><section><h2>Planifica tu visita</h2><p><strong>Museo Presley Norton</strong><br />Av. 9 de Octubre y Carchi, Guayaquil, Ecuador</p><p>Verifica horarios, ingreso y actividades vigentes en los canales oficiales antes de tu visita.</p><a class="button alt icon solid fa-map-marker-alt" href="https://www.google.com/maps/search/?api=1&query=Museo+Presley+Norton+Guayaquil" target="_blank" rel="noopener">Cómo llegar</a></section></div>
-		<div class="col-6 col-12-medium"><section><h2>Para seguir explorando</h2><ul class="divided"><li><a href="https://www.facebook.com/mpresleynorton" target="_blank" rel="noopener">Facebook del museo · agenda y novedades</a></li><li><a href="https://www.eluniverso.com/guayaquil/2020/11/13/nota/8046997/inmueble-patrimonial-acoge-museo-presley-norton-espacio-honor/?outputType=amp" target="_blank" rel="noopener">Historia de Villa Rosa Herlinda</a></li><li><a href="https://www.eluniverso.com/entretenimiento/2020/12/19/nota/8369605/pioneros-television-guayaquil-cumplieron-60-anos-haber-hecho/" target="_blank" rel="noopener">Presley Norton y la televisión guayaquileña</a></li></ul></section></div>
-		<div class="col-12"><div id="copyright"><ul class="menu"><li>Proyecto académico · DAWM</li><li>Diseño base: <a href="https://html5up.net/zerofour" target="_blank" rel="noopener">ZeroFour por HTML5 UP</a> · Licencia CC BY 3.0</li></ul></div></div>
-	</div></footer></div>
+	<div class="col-6 col-12-medium" id="visita"><section>
+		<h2>Planifica tu visita</h2>
+		<p><strong>Museo Presley Norton</strong><br />Av. 9 de Octubre y Carchi, Guayaquil, Ecuador</p>
+		<p>Verifica horarios, ingreso y actividades vigentes en los canales oficiales antes de tu visita.</p>
+	<!--	<a class="button alt icon solid fa-map-marker-alt" href="https://www.google.com/maps/search/?api=1&query=Museo+Presley+Norton+Guayaquil" target="_blank" rel="noopener">Cómo llegar</a>
+	se incorporó mapa --> 
+</section></div>
+
+	<div class="col-6 col-12-medium"><section><h2>Para seguir explorando</h2><ul class="divided"><li><a href="https://www.facebook.com/mpresleynorton" target="_blank" rel="noopener">Facebook del museo · agenda y novedades</a></li><li><a href="https://www.eluniverso.com/guayaquil/2020/11/13/nota/8046997/inmueble-patrimonial-acoge-museo-presley-norton-espacio-honor/?outputType=amp" target="_blank" rel="noopener">Historia de Villa Rosa Herlinda</a></li><li><a href="https://www.eluniverso.com/entretenimiento/2020/12/19/nota/8369605/pioneros-television-guayaquil-cumplieron-60-anos-haber-hecho/" target="_blank" rel="noopener">Presley Norton y la televisión guayaquileña</a></li></ul></section></div>
+
+	<div class="col-12">
+		<div class="mapa-visita">
+			<iframe title="Mapa de ubicación del Museo Presley Norton" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.910634039791!2d-79.89527489999999!3d-2.1875663000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6ddfb854967f%3A0xce54c478ed379d6f!2sMuseo%20Presley%20Norton!5e0!3m2!1ses!2sec!4v1792964823437!5m2!1ses!2sec" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+		</div>
+	</div>
+
+	<div class="col-12"><div id="copyright"><ul class="menu"><li>Proyecto académico · DAWM</li><li>Diseño base: <a href="https://html5up.net/zerofour" target="_blank" rel="noopener">ZeroFour por HTML5 UP</a> · Licencia CC BY 3.0</li></ul></div></div>
+</div></footer></div>
+</div>
 </div>
 <script src="assets/js/jquery.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script>
+<script src="assets/js/formulario.js"></script>
 </body>
 </html>
