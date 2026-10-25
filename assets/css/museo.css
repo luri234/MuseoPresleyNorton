@@ -294,3 +294,47 @@ body.museo .mapa-visita iframe {
 html {
   scroll-behavior: smooth;
 }
+.video-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(20, 14, 8, 0.75);
+}
+
+.video-popup:target {
+  display: flex;
+}
+
+.video-popup-fondo {
+  position: absolute;
+  inset: 0;
+}
+
+.video-popup-caja {
+  position: relative;
+  height: min(85vh, 700px);
+  aspect-ratio: 9 / 16;       /* los reels son verticales */
+  max-width: 92vw;
+  background: #000;
+  border: 5px solid #fff;
+}
+
+.video-popup-caja iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-popup-cerrar {
+  position: absolute;
+  top: -42px;
+  right: -5px;
+  color: #fff;
+  font-size: 38px;
+  line-height: 1;
+  text-decoration: none;
+  border: 0;
+}
